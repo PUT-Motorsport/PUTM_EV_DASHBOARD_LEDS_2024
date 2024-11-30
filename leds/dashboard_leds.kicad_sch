@@ -4513,6 +4513,26 @@
 		)
 		(uuid "66d201da-3557-4504-852c-7ca0f5e2448e")
 	)
+	(text "150/200 mW"
+		(exclude_from_sim no)
+		(at 49.276 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7131f438-fae1-4859-960b-7d9de466fc1c")
+	)
+	(text "150/200 mW"
+		(exclude_from_sim no)
+		(at 191.516 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7537945c-a0ab-4dfb-8cd3-76ef0dec37aa")
+	)
 	(text "LED'S"
 		(exclude_from_sim no)
 		(at 32.512 20.066 0)
@@ -4532,6 +4552,36 @@
 			)
 		)
 		(uuid "b3adb15b-8511-4a28-a28f-30998d014bb8")
+	)
+	(text "150/200 mW"
+		(exclude_from_sim no)
+		(at 240.792 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6ef5bbe-64b0-4180-8abb-1ec7cf29eaa6")
+	)
+	(text "150/200 mW"
+		(exclude_from_sim no)
+		(at 138.43 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e79caa18-0f3b-47a3-87a8-35634e9fd583")
+	)
+	(text "150/200 mW"
+		(exclude_from_sim no)
+		(at 88.646 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8e40ad2-d93f-49ed-9095-be94f45b8096")
 	)
 	(text "IMD & TS Connector"
 		(exclude_from_sim no)
