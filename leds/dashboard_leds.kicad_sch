@@ -3050,7 +3050,7 @@
 		(uuid "3e8aa7dd-e315-48cd-b85f-da9b5eb2e57f")
 	)
 	(junction
-		(at 110.49 106.68)
+		(at 54.61 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6106583c-b0cd-47e3-9c74-f3154650835f")
@@ -3227,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 106.68) (xy 109.22 106.68)
+			(xy 54.61 104.14) (xy 53.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3327,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 104.14) (xy 110.49 106.68)
+			(xy 54.61 101.6) (xy 54.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3377,7 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 106.68) (xy 110.49 107.95)
+			(xy 54.61 104.14) (xy 54.61 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3487,7 +3487,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 110.49 101.6)
+			(xy 53.34 99.06) (xy 54.61 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3867,7 +3867,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 104.14) (xy 110.49 104.14)
+			(xy 53.34 101.6) (xy 54.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4287,7 +4287,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 127 102.87)
+			(xy 191.77 142.24) (xy 191.77 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4447,13 +4447,25 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 109.22 99.06)
+			(xy 54.61 96.52) (xy 53.34 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fdf6ce70-87ac-407f-aaad-b078a7bea755")
+	)
+	(rectangle
+		(start 26.67 86.36)
+		(end 76.2 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2eb26bc5-659a-4932-9919-4b7568a693bb)
 	)
 	(rectangle
 		(start 25.4 133.35)
@@ -4480,7 +4492,7 @@
 		(uuid 8049c16f-373d-4512-9b3f-6eb6290a1113)
 	)
 	(rectangle
-		(start 184.15 90.17)
+		(start 182.88 90.17)
 		(end 262.89 158.75)
 		(stroke
 			(width 0)
@@ -4520,6 +4532,16 @@
 			)
 		)
 		(uuid "b3adb15b-8511-4a28-a28f-30998d014bb8")
+	)
+	(text "IMD & TS Connector"
+		(exclude_from_sim no)
+		(at 65.024 82.55 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "f9b32110-8cf0-493a-b682-7679d6e399c9")
 	)
 	(label "IMD"
 		(at 170.18 54.61 180)
@@ -4566,7 +4588,7 @@
 		(uuid "10920c3a-6647-43cc-8a25-d09fd4a27f47")
 	)
 	(label "IMD"
-		(at 110.49 99.06 0)
+		(at 54.61 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4720,7 +4742,7 @@
 		(uuid "c313f56b-ec8a-4698-acb2-f8459eb0b634")
 	)
 	(label "TS_OFF"
-		(at 110.49 101.6 0)
+		(at 54.61 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5447,7 +5469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140"
+		(property "Value" "150"
 			(at 148.59 39.3699 0)
 			(effects
 				(font
@@ -5570,7 +5592,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 127 101.6 0)
+		(at 191.77 142.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5580,7 +5602,7 @@
 		(fields_autoplaced yes)
 		(uuid "1efa7c0f-bb1b-442c-a06e-7f7e89ea56be")
 		(property "Reference" "#FLG01"
-			(at 127 99.695 0)
+			(at 191.77 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5611,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 127 96.52 0)
+			(at 191.77 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 101.6 0)
+			(at 191.77 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 101.6 0)
+			(at 191.77 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5637,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 127 101.6 0)
+			(at 191.77 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140"
+		(property "Value" "150"
 			(at 251.46 38.0999 0)
 			(effects
 				(font
@@ -6381,7 +6403,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 102.87 0)
+		(at 191.77 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6389,7 +6411,7 @@
 		(dnp no)
 		(uuid "36a96535-f132-462d-8925-76718e0c10cc")
 		(property "Reference" "#PWR010"
-			(at 127 109.22 0)
+			(at 191.77 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6420,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 107.442 0)
+			(at 191.77 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +6428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 102.87 0)
+			(at 191.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 102.87 0)
+			(at 191.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 102.87 0)
+			(at 191.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +7439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140"
+		(property "Value" "150"
 			(at 201.93 40.6399 0)
 			(effects
 				(font
@@ -7684,7 +7706,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 107.95 0)
+		(at 54.61 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7692,7 +7714,7 @@
 		(dnp no)
 		(uuid "6b62a1d7-5055-47fc-a027-0a6bda7682fd")
 		(property "Reference" "#PWR01"
-			(at 110.49 114.3 0)
+			(at 54.61 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 113.03 0)
+			(at 54.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7709,7 +7731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 107.95 0)
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7718,7 +7740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 107.95 0)
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,7 +7749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 107.95 0)
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,7 +8349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140"
+		(property "Value" "150"
 			(at 59.69 39.3699 0)
 			(effects
 				(font
@@ -8877,7 +8899,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 104.14 101.6 0)
+		(at 48.26 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8887,7 +8909,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d0d8796-6b66-4e3b-890c-a37c9f88f0dc")
 		(property "Reference" "J1"
-			(at 104.14 92.71 0)
+			(at 48.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8895,7 +8917,7 @@
 			)
 		)
 		(property "Value" "Harness"
-			(at 104.14 95.25 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +8925,7 @@
 			)
 		)
 		(property "Footprint" "Local_Library:Molex_53261-0471"
-			(at 104.14 101.6 0)
+			(at 48.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +8934,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/532610471?display=pdf"
-			(at 104.14 101.6 0)
+			(at 48.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +8943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 101.6 0)
+			(at 48.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +8952,7 @@
 			)
 		)
 		(property "Component" " 538-53261-0471"
-			(at 104.14 101.6 0)
+			(at 48.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140"
+		(property "Value" "150"
 			(at 99.06 38.0999 0)
 			(effects
 				(font
