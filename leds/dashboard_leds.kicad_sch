@@ -4503,6 +4503,26 @@
 		)
 		(uuid cf3de423-af60-41d5-8ac0-4ef721449a42)
 	)
+	(text "100 mW"
+		(exclude_from_sim no)
+		(at 242.57 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32c65155-990e-4477-a5cd-e90186262e75")
+	)
+	(text "100 mW"
+		(exclude_from_sim no)
+		(at 139.446 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e39c263-3b7c-4e07-bec8-24a7b6bac485")
+	)
 	(text "Connector"
 		(exclude_from_sim no)
 		(at 202.438 86.36 0)
@@ -4513,7 +4533,7 @@
 		)
 		(uuid "66d201da-3557-4504-852c-7ca0f5e2448e")
 	)
-	(text "150/200 mW"
+	(text "100 mW"
 		(exclude_from_sim no)
 		(at 49.276 36.322 0)
 		(effects
@@ -4522,16 +4542,6 @@
 			)
 		)
 		(uuid "7131f438-fae1-4859-960b-7d9de466fc1c")
-	)
-	(text "150/200 mW"
-		(exclude_from_sim no)
-		(at 191.516 36.576 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7537945c-a0ab-4dfb-8cd3-76ef0dec37aa")
 	)
 	(text "LED'S"
 		(exclude_from_sim no)
@@ -4553,35 +4563,15 @@
 		)
 		(uuid "b3adb15b-8511-4a28-a28f-30998d014bb8")
 	)
-	(text "150/200 mW"
+	(text "100 mW"
 		(exclude_from_sim no)
-		(at 240.792 35.306 0)
+		(at 193.294 36.322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "b6ef5bbe-64b0-4180-8abb-1ec7cf29eaa6")
-	)
-	(text "150/200 mW"
-		(exclude_from_sim no)
-		(at 138.43 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e79caa18-0f3b-47a3-87a8-35634e9fd583")
-	)
-	(text "150/200 mW"
-		(exclude_from_sim no)
-		(at 88.646 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f8e40ad2-d93f-49ed-9095-be94f45b8096")
+		(uuid "f2f774d7-a564-4b4d-a3df-a9457d38f6b6")
 	)
 	(text "IMD & TS Connector"
 		(exclude_from_sim no)
@@ -4592,6 +4582,16 @@
 			)
 		)
 		(uuid "f9b32110-8cf0-493a-b682-7679d6e399c9")
+	)
+	(text "100 mW"
+		(exclude_from_sim no)
+		(at 89.916 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb20e36f-f228-4377-9318-b5eba1b64432")
 	)
 	(label "IMD"
 		(at 170.18 54.61 180)
@@ -4831,7 +4831,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS138"
 			(at 143.51 63.5 0)
 			(effects
 				(font
@@ -5108,7 +5108,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS138"
 			(at 187.96 49.53 0)
 			(effects
 				(font
@@ -5528,7 +5528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 146.05 38.1 0)
 			(effects
 				(font
@@ -5562,7 +5562,7 @@
 			(uuid "63a9769e-b1ab-4da2-b68e-77d7f9b3bf14")
 		)
 		(instances
-			(project ""
+			(project "dashboard_leds"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "R17")
 					(unit 1)
@@ -6125,7 +6125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "100"
 			(at 251.46 38.0999 0)
 			(effects
 				(font
@@ -6134,7 +6134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 248.92 36.83 0)
 			(effects
 				(font
@@ -6194,7 +6194,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS138"
 			(at 93.98 63.5 0)
 			(effects
 				(font
@@ -6534,7 +6534,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS138"
 			(at 246.38 49.53 0)
 			(effects
 				(font
@@ -7083,7 +7083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Local_Library:Wurth_Elektronik_150224"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_AK"
 			(at 96.52 45.72 90)
 			(effects
 				(font
@@ -7092,7 +7092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150224YS73100A.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/b727a26c2a14c1b978f399fc0d48d055/RF-YURA30TS-AE.pdf"
 			(at 96.52 45.72 90)
 			(effects
 				(font
@@ -7498,7 +7498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 199.39 39.37 0)
 			(effects
 				(font
@@ -7637,7 +7637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Local_Library:Wurth_Elektronik_150224"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_AK"
 			(at 248.92 45.72 90)
 			(effects
 				(font
@@ -7646,7 +7646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150224VS73100A.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/ff2f725a7265a0e46cf1b59e09e8dc43/RF-GNRA30TS-CF.pdf"
 			(at 248.92 45.72 90)
 			(effects
 				(font
@@ -8100,7 +8100,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS138"
 			(at 54.61 63.5 0)
 			(effects
 				(font
@@ -8185,7 +8185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Local_Library:Wurth_Elektronik_150224"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_AK"
 			(at 57.15 46.99 90)
 			(effects
 				(font
@@ -8194,7 +8194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150224YS73100A.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/b727a26c2a14c1b978f399fc0d48d055/RF-YURA30TS-AE.pdf"
 			(at 57.15 46.99 90)
 			(effects
 				(font
@@ -8264,7 +8264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Local_Library:Wurth_Elektronik_150224"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_AK"
 			(at 146.05 46.99 90)
 			(effects
 				(font
@@ -8273,7 +8273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150224RS73100A.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/847253aff8a1c320c4ee0f8f7453c0d2/RF-RURA30TS-CE.pdf"
 			(at 146.05 46.99 90)
 			(effects
 				(font
@@ -8408,7 +8408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 57.15 38.1 0)
 			(effects
 				(font
@@ -8616,7 +8616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Local_Library:Wurth_Elektronik_150224"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_AK"
 			(at 199.39 54.61 90)
 			(effects
 				(font
@@ -8625,7 +8625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150224RS73100A.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/847253aff8a1c320c4ee0f8f7453c0d2/RF-RURA30TS-CE.pdf"
 			(at 199.39 54.61 90)
 			(effects
 				(font
@@ -8804,7 +8804,7 @@
 			(uuid "b13ca22a-3e30-4a08-a9a6-f5410ab92be7")
 		)
 		(instances
-			(project ""
+			(project "dashboard_leds"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "J2")
 					(unit 1)
@@ -10678,7 +10678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 96.52 36.83 0)
 			(effects
 				(font
