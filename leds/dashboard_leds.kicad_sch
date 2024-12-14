@@ -8,7 +8,7 @@
 		(title "Dashboard LEDs")
 		(date "2024-11-25")
 		(rev "${REVISION}")
-		(company "Author: I. Kajdan & Michał Błotniak")
+		(company "Author:  Michał Błotniak")
 		(comment 1 "Reviewer:")
 	)
 	(lib_symbols

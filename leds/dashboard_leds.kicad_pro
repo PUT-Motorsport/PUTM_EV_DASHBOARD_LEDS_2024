@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -654,7 +655,7 @@
   "sheets": [
     [
       "b652b05a-4e3d-4ad1-b032-18886abe7d45",
-      "Główny"
+      "Root"
     ]
   ],
   "text_variables": {
